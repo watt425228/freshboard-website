@@ -1,0 +1,3 @@
+# macOS bookkeeping files (the ._ files appear on external drives).
+.DS_Store
+._*

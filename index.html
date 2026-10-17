@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Freshboard: one menu for your screens, website and Google listing</title>
+  <meta name="description" content="Edit prices and items in one place. Freshboard updates your digital menu screens, your website and your Google Business Profile at the same moment. $39.99 a month per location.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2317212B'/%3E%3Crect x='5' y='6' width='22' height='3' fill='%2398A4B0'/%3E%3Cpath d='M9 8h14v15l-2.33 2.5L18.33 23 16 25.5 13.67 23l-2.34 2.5L9 23z' fill='%23FFD84D'/%3E%3Crect x='12' y='13' width='8' height='2' fill='%2317212B'/%3E%3Crect x='12' y='17' width='5' height='2' fill='%2317212B'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-head">
+    <div class="wrap">
+      <a class="brand display" href="index.html">Freshboard</a>
+      <nav aria-label="Main">
+        <a href="features.html">Features</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html">Contact</a>
+        <a class="btn btn-primary" href="contact.html">Get early access</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <h1 class="display">Change a price once. Every menu follows.</h1>
+          <p class="hero-lede">Edit your menu in one place. Freshboard updates the TVs above your counter, the menu on your website and your Google listing in the same moment.</p>
+
+          <form class="try" id="try">
+            <div class="try-rail" aria-hidden="true"></div>
+            <div class="try-ticket">
+              <h2>Try it on the Margherita</h2>
+              <div class="try-fields">
+                <label class="try-price">
+                  <span>Price</span>
+                  <span class="try-box"><span aria-hidden="true">$</span><input id="try-price" inputmode="decimal" value="14.00" autocomplete="off"></span>
+                </label>
+                <label class="try-check"><input type="checkbox" id="try-out"> <span>Sold out</span></label>
+                <button class="btn btn-primary" type="submit">Publish</button>
+              </div>
+              <p class="try-status" id="try-status" role="status">Three places show $14.00 right now.</p>
+            </div>
+          </form>
+        </div>
+
+        <div class="stage" aria-label="Preview of the three places a menu appears">
+          <figure class="surface tv">
+            <div class="tv-screen">
+              <p class="tv-head">Corner Slice</p>
+              <p class="tv-sec">Pizzas</p>
+              <ul>
+                <li data-demo="row"><span>Margherita</span><i></i><b data-demo="price">$14.00</b></li>
+                <li><span>Pepperoni</span><i></i><b>$16.00</b></li>
+                <li><span>Mushroom &amp; Thyme</span><i></i><b>$17.00</b></li>
+                <li><span>Diavola</span><i></i><b>$18.00</b></li>
+              </ul>
+            </div>
+            <figcaption>The screen above the counter</figcaption>
+          </figure>
+
+          <figure class="surface site">
+            <div class="site-frame">
+              <div class="site-bar"><span></span><span></span><span></span><em>cornerslice.example/menu</em></div>
+              <div class="site-page">
+                <p class="site-title">Our menu</p>
+                <ul>
+                  <li data-demo="row"><span>Margherita</span><b data-demo="price">$14.00</b></li>
+                  <li><span>Pepperoni</span><b>$16.00</b></li>
+                  <li><span>Mushroom &amp; Thyme</span><b>$17.00</b></li>
+                </ul>
+              </div>
+            </div>
+            <figcaption>Your website</figcaption>
+          </figure>
+
+          <figure class="surface listing">
+            <div class="listing-card">
+              <p class="listing-name">Corner Slice</p>
+              <p class="listing-kind">Pizza restaurant, open until 10 pm</p>
+              <p class="listing-tabs"><span>Overview</span><span class="on">Menu</span><span>Reviews</span></p>
+              <ul>
+                <li data-demo="row"><span>Margherita</span><b data-demo="price">$14.00</b></li>
+                <li><span>Pepperoni</span><b>$16.00</b></li>
+              </ul>
+            </div>
+            <figcaption>Your Google listing</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="channels" id="channels">
+      <div class="wrap">
+        <h2 class="display">One menu, three places it has to be right</h2>
+        <div class="channel-grid">
+          <article>
+            <h3>Screens</h3>
+            <p>Any TV with a browser is a menu board. Open a link on it once and it stays in step from then on, with nothing to install. Keep a menu for each screen: food on one TV, drinks on the next.</p>
+            <p>Pick from 50 designs and 50 fonts and add your logo. Or upload the menu you already have: its prices and descriptions load in by themselves, and whatever you change is rewritten on it, right where it was printed.</p>
+          </article>
+          <article>
+            <h3>Website</h3>
+            <p>You get a menu page that is always current. Or paste one line into the site you already have and the menu appears there, in your site's own fonts.</p>
+            <p>No more uploading a new PDF every time the fish price moves.</p>
+          </article>
+          <article>
+            <h3>Google</h3>
+            <p>The menu on your Business Profile in Search and Maps is replaced each time you publish.</p>
+            <p>The price someone sees before they walk in is the price at the counter.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="details">
+      <div class="wrap details-grid">
+        <div>
+          <h2 class="display">Built for the middle of a shift</h2>
+          <p class="details-more"><a href="features.html">See everything Freshboard does</a></p>
+        </div>
+        <dl>
+          <div>
+            <dt>Run out of something? One switch.</dt>
+            <dd>Mark an item sold out and it is crossed off the screens and the website, and left off Google, until you switch it back.</dd>
+          </div>
+          <div>
+            <dt>Breakfast to late night, on its own</dt>
+            <dd>Boards switch menus at the times you set, and tell customers "Happy hour ends in 20 min" while there's still time to order.</dd>
+          </div>
+          <div>
+            <dt>Keep the menu you paid a designer for</dt>
+            <dd>Upload your finished menu and change its prices from the app. The new price is printed where the old one was, in the same lettering.</dd>
+          </div>
+          <div>
+            <dt>Locations can differ</dt>
+            <dd>Share one menu across every location, and let the airport spot charge a dollar more for the same beer.</dd>
+          </div>
+          <div>
+            <dt>You see what will change before it does</dt>
+            <dd>Edits wait as tickets until you publish, so a half-typed price never reaches a customer.</dd>
+          </div>
+          <div>
+            <dt>A record of every publish</dt>
+            <dd>What changed, when, and whether each screen, your site and Google took it.</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+      <div class="wrap pricing-grid">
+        <div>
+          <h2 class="display">$39.99 a month for each location</h2>
+          <p class="pricing-lede">Everything is included: as many screens, edits and publishes as you need. Free for 14 days, and you don't need a card to start.</p>
+          <div class="pricing-actions">
+            <a class="btn btn-primary btn-large" href="contact.html">Get early access</a>
+            <a href="pricing.html">Pricing details</a>
+          </div>
+        </div>
+        <div class="calc">
+          <label for="calc-count">How many locations do you run?</label>
+          <div class="calc-row">
+            <button type="button" class="btn" id="calc-less" aria-label="One fewer location">&minus;</button>
+            <input id="calc-count" type="number" min="1" max="500" value="2" inputmode="numeric">
+            <button type="button" class="btn" id="calc-more" aria-label="One more location">+</button>
+          </div>
+          <p class="calc-total display" id="calc-total" role="status"></p>
+          <p class="muted">Add or close a location any time. Your bill follows, prorated to the day.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <div class="wrap">
+      <span class="brand display">Freshboard</span>
+      <a href="features.html">Features</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Contact</a>
+      <small>&copy; 2026 Freshboard</small>
+    </div>
+  </footer>
+
+  <script>
+    // The try-it ticket in the hero, and the pricing calculator.
+    (function () {
+      'use strict';
+      var fmt = function (cents) { return '$' + (cents / 100).toFixed(2); };
+
+      var form = document.getElementById('try');
+      var priceInput = document.getElementById('try-price');
+      var outInput = document.getElementById('try-out');
+      var status = document.getElementById('try-status');
+      var live = { price: 1400, out: false };
+
+      function draft() {
+        var text = priceInput.value.replace(/[^\d.]/g, '');
+        var price = /^\d{1,3}(\.\d{0,2})?$/.test(text) ? Math.round(parseFloat(text) * 100) : null;
+        return { price: price, out: outInput.checked };
+      }
+      function describe() {
+        var next = draft();
+        if (next.price === null) { status.textContent = 'Enter a price like 15.50.'; return; }
+        if (next.price === live.price && next.out === live.out) {
+          status.textContent = live.out ? 'Three places show it as sold out right now.' : 'Three places show ' + fmt(live.price) + ' right now.';
+        } else {
+          status.textContent = 'Your change is waiting. Nothing has moved yet. Press Publish.';
+        }
+      }
+      form.addEventListener('submit', function (event) {
+        event.preventDefault();
+        var next = draft();
+        if (next.price === null) { describe(); priceInput.focus(); return; }
+        if (next.price === live.price && next.out === live.out) { status.textContent = 'Change the price or mark it sold out first.'; return; }
+        live = next;
+        priceInput.value = (live.price / 100).toFixed(2);
+        document.querySelectorAll('[data-demo="price"]').forEach(function (node) {
+          node.textContent = live.out ? 'Sold out' : fmt(live.price);
+          node.classList.remove('is-flash');
+          void node.offsetWidth; // restart the highlight
+          node.classList.add('is-flash');
+        });
+        document.querySelectorAll('[data-demo="row"]').forEach(function (row) { row.classList.toggle('is-out', live.out); });
+        status.textContent = 'Published. The screen, the website and the Google listing changed together.';
+      });
+      priceInput.addEventListener('input', describe);
+      outInput.addEventListener('change', describe);
+
+      var count = document.getElementById('calc-count');
+      var total = document.getElementById('calc-total');
+      var unit = 3999; // $39.99 a location, in cents
+
+      function draw() {
+        var n = Math.max(1, Math.min(500, parseInt(count.value, 10) || 1));
+        total.textContent = '$' + (n * unit / 100).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' a month';
+        return n;
+      }
+      document.getElementById('calc-less').addEventListener('click', function () { count.value = Math.max(1, draw() - 1); draw(); });
+      document.getElementById('calc-more').addEventListener('click', function () { count.value = Math.min(500, draw() + 1); draw(); });
+      count.addEventListener('input', draw);
+      count.addEventListener('blur', function () { count.value = draw(); });
+      draw();
+    })();
+  </script>
+</body>
+</html>

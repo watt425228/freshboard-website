@@ -238,3 +238,4 @@ a:hover { color: var(--pen-deep); }
 .legal .callout { background: var(--paper); border-left: 4px solid var(--ticket); padding: 1rem 1.2rem; margin: 1rem 0; }
 .site-foot .legal-links { display: flex; gap: 1.5rem; }
 .steps-action { margin-top: 1.75rem; }
+.not-found-links { margin-top: 1.75rem; }

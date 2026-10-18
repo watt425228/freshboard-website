@@ -1,0 +1,5 @@
+# Freshboard: every page here is meant to be found, by search engines and AI assistants alike.
+User-agent: *
+Allow: /
+
+Sitemap: https://freshboard.org/sitemap.xml

@@ -138,6 +138,8 @@ a:hover { color: var(--pen-deep); }
 .site-foot .brand { color: #fff; margin-right: auto; }
 .site-foot a { color: #C9D1D9; }
 .site-foot small { color: #8D99A6; width: 100%; }
+.site-foot .credit { margin-top: -1.5rem; }
+.site-foot .credit a { color: #C9D1D9; }
 
 @media (max-width: 62rem) {
   .hero-grid, .details-grid, .pricing-grid { grid-template-columns: 1fr; gap: 2.5rem; }

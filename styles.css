@@ -241,3 +241,24 @@ a:hover { color: var(--pen-deep); }
 .site-foot .legal-links { display: flex; gap: 1.5rem; }
 .steps-action { margin-top: 1.75rem; }
 .not-found-links { margin-top: 1.75rem; }
+
+/* ---- our story: a reading column, with one question set large ------------------------- */
+
+.story { padding: 0 0 4.5rem; }
+.story .wrap > * { max-width: 44rem; }
+.story h2 { font-size: clamp(1.9rem, 3.6vw, 2.6rem); margin: 3rem 0 1rem; }
+.story h2:first-child { margin-top: 0.5rem; }
+.story p, .story li, .story dd { font-size: 1.1875rem; line-height: 1.6; color: #2A3642; }
+.story p + p { margin-top: 1rem; }
+.story .included { margin: 1rem 0 1.25rem; gap: 0.75rem; }
+.story-question { margin: 2.75rem 0 2rem; padding: 1.75rem 2rem 2rem; background: var(--ticket); border-radius: 4px; }
+.story-question p { font-family: var(--font-display); font-stretch: 70%; font-weight: 800; font-size: clamp(2rem, 4.6vw, 3.25rem); line-height: 1; color: #111; }
+.beliefs { margin: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.75rem; }
+.story .wrap > .beliefs { max-width: 60rem; }
+.beliefs > div { border-top: 3px solid var(--ink); padding-top: 0.9rem; }
+.beliefs dt { font-weight: 700; font-size: 1.125rem; margin-bottom: 0.35rem; }
+.beliefs dd { margin: 0; font-size: 1.0625rem; }
+@media (max-width: 40rem) {
+  .beliefs { grid-template-columns: 1fr; }
+  .story-question { padding: 1.25rem 1.25rem 1.5rem; }
+}

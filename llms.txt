@@ -18,6 +18,7 @@ Key facts:
 - [Home](https://freshboard.org/): what Freshboard does, how it works, and common questions
 - [Features](https://freshboard.org/features.html): menu screens, your own menu design, dayparts, website menus, locations and add-ons
 - [Pricing](https://freshboard.org/pricing.html): $39.99 per location per month, what's included, extras and billing questions
+- [Our story](https://freshboard.org/our-story.html): why Freshboard was built, what it updates today, and who makes it (Watt Consulting LLC)
 - [Contact](https://freshboard.org/contact.html): ryan@wattconsulting.net
 
 ## Policies

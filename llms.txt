@@ -19,6 +19,7 @@ Key facts:
 - [Features](https://freshboard.org/features.html): menu screens, your own menu design, dayparts, website menus, locations and add-ons
 - [Pricing](https://freshboard.org/pricing.html): $39.99 per location per month, what's included, extras and billing questions
 - [Our story](https://freshboard.org/our-story.html): why Freshboard was built, what it updates today, and who makes it (Watt Consulting LLC)
+- [FAQ](https://freshboard.org/faq.html): 41 questions and answers about setting up, menu boards, changing your menu, website menus, Google, add-ons, pricing, billing and accounts
 - [Contact](https://freshboard.org/contact.html): ryan@wattconsulting.net
 
 ## Policies

@@ -262,3 +262,24 @@ a:hover { color: var(--pen-deep); }
   .beliefs { grid-template-columns: 1fr; }
   .story-question { padding: 1.25rem 1.25rem 1.5rem; }
 }
+
+/* ---- FAQ: jump to a topic -------------------------------------------------------------- */
+
+.faq-topics ul { list-style: none; margin: 1.75rem 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.faq-topics a { display: inline-block; padding: 0.4rem 0.85rem; border: 1.5px solid var(--ink); border-radius: 999px; color: var(--ink); text-decoration: none; font-weight: 600; font-size: 0.9375rem; background: var(--paper); }
+.faq-topics a:hover { background: var(--ticket); }
+.faq dd a { font-weight: 600; }
+/* Jumping to a topic leaves room above its heading. */
+.faq[id] { scroll-margin-top: 1rem; }
+
+/* ---- the top bar on tablets and small laptops: seven links have to fit ------------------- */
+
+.site-head nav a { white-space: nowrap; }
+@media (max-width: 56rem) {
+  .site-head nav { gap: 1rem; }
+  .site-head nav a:not(.btn) { font-size: 0.9375rem; }
+}
+/* Tablets: Our story and FAQ step out of the top bar (every footer still links them). */
+@media (max-width: 50rem) {
+  .site-head nav a[href="/our-story.html"], .site-head nav a[href="/faq.html"] { display: none; }
+}
